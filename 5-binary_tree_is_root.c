@@ -5,6 +5,9 @@
  * no parents
  * @node: node to evaluate
  * Return: 1 if `node` is root, 0 if not, or if `node` is NULL
+ *
+ * Time Complexity: O(1)
+ *
  */
 int binary_tree_is_root(const binary_tree_t *node)
 {
