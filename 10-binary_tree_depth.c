@@ -6,12 +6,11 @@
  *
  * Return: If tree is NULL, must return 0
  *
- * FUNCTIONALITY *
+ * HOW IT WORKS *
  *
  * 1. If the tree is NULL, return 0.
  * 2. If the tree is not NULL, return 1 + the depth of the parent.
  *
- * Time Complexity: O(n)
  */
 size_t binary_tree_depth(const binary_tree_t *tree)
 {
