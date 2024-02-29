@@ -9,7 +9,9 @@
 * Return: a pointer to the created node, or NULL on failure or
 * if parent is NULL
 *
-* Your function must return a pointer to the created node * or NULL on failure or if parent is NULL
+* Your function must return a
+* pointer to the created node or NULL on 
+* failure or if parent is NULL
 *
 * Time Complexity: O(1)
 *
