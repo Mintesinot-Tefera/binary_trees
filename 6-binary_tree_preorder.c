@@ -6,6 +6,9 @@
  * @tree: root node of tree to traverse
  * @func: pointer to function to call for each node; value in the node is
  * passed as a parameter to `func`
+ *
+ * Time Complexity: O(1)
+ *
  */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {
