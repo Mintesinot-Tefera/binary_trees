@@ -5,6 +5,9 @@
   * @node: pointer to input node
   *
   * Return: 1 if true, 0 if false
+  *
+  * If node is NULL, return 0
+  *
   */
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
