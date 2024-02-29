@@ -8,6 +8,11 @@
 *
 * Return: a pointer to the created node, or NULL on failure or
 * if parent is NULL
+*
+*Your function must return a pointer to the created node, or NULL on failure or if parent is NULL
+*
+* Time Complexity: O(1)
+*
 */
 
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
