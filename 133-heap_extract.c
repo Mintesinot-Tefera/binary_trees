@@ -5,8 +5,8 @@
  * @tree: pointer to the root node of the tree to measure the height
  *
  * Return: Height or 0 if tree is NULL
- * 
- * The root node must be freed and replace with the last 
+ *
+ * The root node must be freed and replace with the last
  * level-order node of the heap
  * Once replaced, the heap must be rebuilt if necessary
  * If your function fails, return 0
